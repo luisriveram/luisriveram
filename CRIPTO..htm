@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<!--Created by Ardora - www.webardora.net-->
+<!--ArdoraCW-->
+<!--bajo licencia Attribution-NonCommercial-NoDerivatives 4.0 International (CC BY-NC-ND 4.0)
+para otros usos contacte con el autor-->
+<html lang="es">
+<head><meta charset="utf-8" /><title>BLOCK.</title>
+<link type="text/css" href="CRIPTO._resources/css/ardoraCW.css" rel="stylesheet" />
+<script language="javascript" type="text/javascript" src="CRIPTO._resources/js/jquery.js"></script>
+<script language="javascript" type="text/javascript" src="CRIPTO._resources/js/jquery-ui.min.js"></script>
+<script language="javascript" type="text/javascript" src="CRIPTO._resources/js/jquery.ui.touch-punch.min.js"></script>
+<script language="javascript" type="text/javascript" src="CRIPTO._resources/js/ardoraCWCFG.js"></script>
+<script language="javascript" type="text/javascript" src="CRIPTO._resources/js/ardoraScorm.js"></script>
+<script language="javascript" type="text/javascript" src="CRIPTO._resources/js/ardoraCW.js"></script>
+<script language="javascript" type="text/javascript" src="CRIPTO._resources/js/ardoraTab.js"></script>
+</head>
+<body onLoad="loadPage()" onbeforeunload="unloadPage()" onUnload="unloadPage()">
+<div id="ardoraMain">
+<audio id="audioFelicitacion">
+<source src="CRIPTO._resources/media/mario-bros-1-up.mp3" type="audio/mp3">
+</audio>
+<audio id="audioTempo">
+<source src="CRIPTO._resources/media/mario-bros_game_over__1_.mp3" type="audio/mp3">
+</audio>
+<audio id="audioIntentos">
+<source src="CRIPTO._resources/media/mario-bros_game_over__1_.mp3" type="audio/mp3">
+</audio>
+<audio id="audioErro">
+<source src="CRIPTO._resources/media/mario-bros_game_over__1_.mp3" type="audio/mp3">
+</audio>
+<div id="ardoraEnu"><SPAN style="font-size:12px;color:#000000">Completa el siguiente crucigrama.</SPAN></div>
+  <div id="ardoraAct">
+  <table id="tableGame">
+<tr>
+<td class="hidetd"></td>
+<td class="hidetd"></td>
+<td class="hidetd"></td>
+<td class="hidetd"></td>
+<td class="hidetd"></td>
+<td class="hidetd"></td>
+<td class="hidetd"></td>
+<td class="hidetd"></td>
+<td class="activeCell"><input id="C8_0" name="C8_0" type="text" class="cell" maxlength="1"/></td>
+<td class="hidetd"></td>
+<td class="hidetd"></td>
+<td class="hidetd"></td>
+<td class="hidetd"></td>
+</tr>
+<tr>
+<td class="hidetd"></td>
+<td class="activeCell"><input id="C1_1" name="C1_1" type="text" class="cell" maxlength="1"/></td>
+<td class="activeCell"><input id="C2_1" name="C2_1" type="text" class="cell" maxlength="1"/></td>
+<td class="activeCell"><input id="C3_1" name="C3_1" type="text" class="cell" maxlength="1"/></td>
+<td class="activeCell"><input id="C4_1" name="C4_1" type="text" class="cell" maxlength="1"/></td>
+<td class="activeCell"><input id="C5_1" name="C5_1" type="text" class="cell" maxlength="1"/></td>
+<td class="activeCell"><input id="C6_1" name="C6_1" type="text" class="cell" maxlength="1"/></td>
+<td class="activeCell"><input id="C7_1" name="C7_1" type="text" class="cell" maxlength="1"/></td>
+<td class="activeCell"><input id="C8_1" name="C8_1" type="text" class="cell" maxlength="1"/></td>
+<td class="activeCell"><input id="C9_1" name="C9_1" type="text" class="cell" maxlength="1"/></td>
+<td class="activeCell"><input id="C10_1" name="C10_1" type="text" class="cell" maxlength="1"/></td>
+<td class="activeCell"><input id="C11_1" name="C11_1" type="text" class="cell" maxlength="1"/></td>
+<td class="hidetd"></td>
+</tr>
+<tr>
+<td class="hidetd"></td>
+<td class="activeCell"><input id="C1_2" name="C1_2" type="text" class="cell" maxlength="1"/></td>
+<td class="hidetd"></td>
+<td class="hidetd"></td>
+<td class="hidetd"></td>
+<td class="hidetd"></td>
+<td class="hidetd"></td>
+<td class="hidetd"></td>
+<td class="activeCell"><input id="C8_2" name="C8_2" type="text" class="cell" maxlength="1"/></td>
+<td class="hidetd"></td>
+<td class="hidetd"></td>
+<td class="hidetd"></td>
+<td class="hidetd"></td>
+</tr>
+<tr>
+<td class="hidetd"></td>
+<td class="activeCell"><input id="C1_3" name="C1_3" type="text" class="cell" maxlength="1"/></td>
+<td class="hidetd"></td>
+<td class="hidetd"></td>
+<td class="hidetd"></td>
+<td class="hidetd"></td>
+<td class="hidetd"></td>
+<td class="hidetd"></td>
+<td class="activeCell"><input id="C8_3" name="C8_3" type="text" class="cell" maxlength="1"/></td>
+<td class="hidetd"></td>
+<td class="hidetd"></td>
+<td class="hidetd"></td>
+<td class="hidetd"></td>
+</tr>
+<tr>
+<td class="hidetd"></td>
+<td class="activeCell"><input id="C1_4" name="C1_4" type="text" class="cell" maxlength="1"/></td>
+<td class="hidetd"></td>
+<td class="hidetd"></td>
+<td class="hidetd"></td>
+<td class="hidetd"></td>
+<td class="hidetd"></td>
+<td class="hidetd"></td>
+<td class="activeCell"><input id="C8_4" name="C8_4" type="text" class="cell" maxlength="1"/></td>
+<td class="hidetd"></td>
+<td class="hidetd"></td>
+<td class="hidetd"></td>
+<td class="hidetd"></td>
+</tr>
+<tr>
+<td class="hidetd"></td>
+<td class="activeCell"><input id="C1_5" name="C1_5" type="text" class="cell" maxlength="1"/></td>
+<td class="hidetd"></td>
+<td class="hidetd"></td>
+<td class="hidetd"></td>
+<td class="hidetd"></td>
+<td class="hidetd"></td>
+<td class="hidetd"></td>
+<td class="activeCell"><input id="C8_5" name="C8_5" type="text" class="cell" maxlength="1"/></td>
+<td class="activeCell"><input id="C9_5" name="C9_5" type="text" class="cell" maxlength="1"/></td>
+<td class="activeCell"><input id="C10_5" name="C10_5" type="text" class="cell" maxlength="1"/></td>
+<td class="hidetd"></td>
+<td class="hidetd"></td>
+</tr>
+<tr>
+<td class="hidetd"></td>
+<td class="activeCell"><input id="C1_6" name="C1_6" type="text" class="cell" maxlength="1"/></td>
+<td class="hidetd"></td>
+<td class="hidetd"></td>
+<td class="hidetd"></td>
+<td class="hidetd"></td>
+<td class="hidetd"></td>
+<td class="hidetd"></td>
+<td class="hidetd"></td>
+<td class="activeCell"><input id="C9_6" name="C9_6" type="text" class="cell" maxlength="1"/></td>
+<td class="hidetd"></td>
+<td class="hidetd"></td>
+<td class="hidetd"></td>
+</tr>
+<tr>
+<td class="hidetd"></td>
+<td class="activeCell"><input id="C1_7" name="C1_7" type="text" class="cell" maxlength="1"/></td>
+<td class="hidetd"></td>
+<td class="hidetd"></td>
+<td class="hidetd"></td>
+<td class="hidetd"></td>
+<td class="hidetd"></td>
+<td class="hidetd"></td>
+<td class="hidetd"></td>
+<td class="activeCell"><input id="C9_7" name="C9_7" type="text" class="cell" maxlength="1"/></td>
+<td class="hidetd"></td>
+<td class="hidetd"></td>
+<td class="hidetd"></td>
+</tr>
+<tr>
+<td class="hidetd"></td>
+<td class="hidetd"></td>
+<td class="hidetd"></td>
+<td class="hidetd"></td>
+<td class="hidetd"></td>
+<td class="hidetd"></td>
+<td class="hidetd"></td>
+<td class="hidetd"></td>
+<td class="hidetd"></td>
+<td class="activeCell"><input id="C9_8" name="C9_8" type="text" class="cell" maxlength="1"/></td>
+<td class="hidetd"></td>
+<td class="hidetd"></td>
+<td class="hidetd"></td>
+</tr>
+<tr>
+<td class="hidetd"></td>
+<td class="hidetd"></td>
+<td class="hidetd"></td>
+<td class="hidetd"></td>
+<td class="hidetd"></td>
+<td class="hidetd"></td>
+<td class="hidetd"></td>
+<td class="hidetd"></td>
+<td class="hidetd"></td>
+<td class="activeCell"><input id="C9_9" name="C9_9" type="text" class="cell" maxlength="1"/></td>
+<td class="hidetd"></td>
+<td class="hidetd"></td>
+<td class="hidetd"></td>
+</tr>
+<tr>
+<td class="hidetd"></td>
+<td class="hidetd"></td>
+<td class="hidetd"></td>
+<td class="hidetd"></td>
+<td class="hidetd"></td>
+<td class="hidetd"></td>
+<td class="hidetd"></td>
+<td class="hidetd"></td>
+<td class="hidetd"></td>
+<td class="activeCell"><input id="C9_10" name="C9_10" type="text" class="cell" maxlength="1"/></td>
+<td class="hidetd"></td>
+<td class="hidetd"></td>
+<td class="hidetd"></td>
+</tr>
+<tr>
+<td class="hidetd"></td>
+<td class="hidetd"></td>
+<td class="hidetd"></td>
+<td class="hidetd"></td>
+<td class="activeCell"><input id="C4_11" name="C4_11" type="text" class="cell" maxlength="1"/></td>
+<td class="activeCell"><input id="C5_11" name="C5_11" type="text" class="cell" maxlength="1"/></td>
+<td class="activeCell"><input id="C6_11" name="C6_11" type="text" class="cell" maxlength="1"/></td>
+<td class="activeCell"><input id="C7_11" name="C7_11" type="text" class="cell" maxlength="1"/></td>
+<td class="activeCell"><input id="C8_11" name="C8_11" type="text" class="cell" maxlength="1"/></td>
+<td class="activeCell"><input id="C9_11" name="C9_11" type="text" class="cell" maxlength="1"/></td>
+<td class="activeCell"><input id="C10_11" name="C10_11" type="text" class="cell" maxlength="1"/></td>
+<td class="hidetd"></td>
+<td class="hidetd"></td>
+</tr>
+<tr>
+<td class="hidetd"></td>
+<td class="hidetd"></td>
+<td class="hidetd"></td>
+<td class="hidetd"></td>
+<td class="hidetd"></td>
+<td class="hidetd"></td>
+<td class="hidetd"></td>
+<td class="hidetd"></td>
+<td class="hidetd"></td>
+<td class="activeCell"><input id="C9_12" name="C9_12" type="text" class="cell" maxlength="1"/></td>
+<td class="hidetd"></td>
+<td class="hidetd"></td>
+<td class="hidetd"></td>
+</tr>
+</table>
+<canvas id="ardoraActCanvas" width="2px" height="2px"></canvas>
+<div id="buttonDir"><canvas id="ardoraButtonDirCanvas" width="40px" height="40px"></canvas></div>
+<div id="defIma"></div>
+  </div>
+<div id="ardoraTab">
+  <canvas id="ardoraTabCanvas" width="70" height="49"></canvas>
+  <div id="buttonOk"><canvas id="buttonOkCanvas" width="70" height="70"></canvas></div>
+</div></div>
+<div id="ardoraAlumSCORM"><p></p></div>
+<div id="ardoraAutor"><p>Wendy Ponce.</p></div>
+</body></html>
