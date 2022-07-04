@@ -20,9 +20,9 @@ function inicia(){
    }
    maxIndice=2;
 	taboaContidos=new Array();
-taboaContidos[0]=new act("Movies Disney","Movies Disney","","<object width='100%' height='420' type='text/html' data='PPE1/PPE1.htm'></object>",false,"",true,false,false);
-taboaContidos[1]=new act("Movies","Movies","","<object width='100%' height='420' type='text/html' data='PPE2/PPE2.htm'></object>",false,"",true,false,false);
-taboaContidos[2]=new act("Movies","Movies","","<object width='100%' height='420' type='text/html' data='PPE3/PPE3.htm'></object>",false,"",false,false,false);
+taboaContidos[0]=new act("Movies Disney","Movies Disney","","<object width='100%' height='555' type='text/html' data='PPE1/PPE1.htm'></object>",false,"",true,false,false);
+taboaContidos[1]=new act("Movies","Movies","","<object width='100%' height='555' type='text/html' data='PPE2_1_/PPE2_1_.htm'></object>",false,"",true,false,false);
+taboaContidos[2]=new act("Movies","Movies","","<object width='100%' height='555' type='text/html' data='PPE3/PPE3.htm'></object>",false,"",true,false,false);
 document.getElementById("botonAdiante").href="javascript:avanza()";
 document.getElementById("botonAtras").href="javascript:retrocede()";
 document.getElementById("botonAxuda").target="_blank";
